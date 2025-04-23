@@ -7,21 +7,77 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="flex justify-between px-12 py-4">
             <div>
-                <img src="" alt="">
+                <img src="img/Logo.png" alt="image">
             </div>
-            <div>
-               <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Comunity</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Pricing</a></li>
+            <nav class="flex items-center gap-5">
+               <ul class="flex gap-5">
+                <li><a href="Home">Home</a></li>
+                <li><a href="Features">Features</a></li>
+                <li><a href="Comunity">Comunity</a></li>
+                <li><a href="Blog">Blog</a></li>
+                <li><a href="Pricing">Pricing</a></li>
             </ul> 
-            </div>
-        </div>
+            <button class="px-6 py-2 bg-green-500 rounded-lg text-white font-semibold">Register Now</button>
+            </nav>
     </header>
+
+<!-----Hero Start----->
+    <div class="grid grid-cols-2 px-12 py-4 ">
+        <div class="flex flex-col gap-4 justify-center">
+            <h1 class="font-semibold text-5xl gap-2">Lesson and insight <br><span class="font-semibold text-green-500 text-[50px]">from 8 years</span></h1>
+            <p class="text-gray-500 text-sm">where to grow your business as photograper: site or social media?</p>
+            <button class="px-6 py-2 bg-green-500 rounded-lg text-white font-semibold w-1/4">Register</button>            
+        </div>
+        <div class="flex justify-center">
+            <img src="img/Illustration.png" alt="Karosel" class="w-2/3">
+        </div>
+    </div>
+<!-- Hero End -->
+
+<!-- our client -->
+<div>    
+    <div class="flex flex-col gap-3 px-12 py-4 mb-12"> 
+        <h1 class="flex font-semibold text-4xl justify-center ">Our Clients</h1>
+        <p class="flex justify-center text-gray-500 text-sm">We have been workin with some Fortune 500+ client</p>
+    </div>
+    <div class="px-12 flex gap-28 justify-center">
+        <img src="img/Client.png" alt="Client" >
+        <img src="img/Client.png" alt="Client" >
+        <img src="img/Client.png" alt="Client" >
+        <img src="img/Client.png" alt="Client" >
+        <img src="img/Client.png" alt="Client" >
+        <img src="img/Client.png" alt="Client" >
+        <img src="img/Client.png" alt="Client" >
+    </div>
+</div>
+<!-- our client end -->
+
+<!-- comunity start -->
+ <div class="mt-12">
+    <div class="flex flex-col gap-3 px-12 py-4 text-center "> 
+        <h1 class="flex font-semibold text-3xl justify-center">Manage your entire comunity <br>in a single system</h1>
+        <p class="flex justify-center text-gray-500 text-sm">Who is nextcent suitable for?</p>
+    </div>
+
+    <div class="flex justify-center gap-24 px-12 mt-12"> 
+        <div class="flex flex-col justify-center items-center">
+            <img src="img/Icon.png" alt="Member">
+            <h3 class="font-semibold text-xl">Membership Organisations</h3>
+            <p class="text-center text-gray-500">Our membership management software provides full of membership renewals and payment</p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <img src="img/Icon2.png" alt="National Associations">
+            <h3 class="font-semibold text-xl">National Associations</h3>
+            <p class="text-center  text-gray-500">Our membership management software provides full automation of membership renewals and payment </p>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <img src="img/Icon3.png" alt="Clubs And Grups">
+            <h3 class="font-semibold text-xl">Clubs And Grups</h3>
+            <p class="text-center  text-gray-500">Our membership management software provides full automation of membership renewals and payment</p>
+        </div>
+    </div>
+ </div>
 </body>
 </html>
